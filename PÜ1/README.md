@@ -30,10 +30,6 @@ Daten müssen wie wie folgt vorliegen?
 **(Wer ist im Team Name + Matrikelnummer + Email)**
 
 1. Markus Aznaid - 52011872 - markus.aznaid@mci4me.at
-2. Julian Bichler - 52113636 - julian.bichler@mci4me.at
-
-
-- [Julian Huber - 123](julian.huber@mci.edu)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
