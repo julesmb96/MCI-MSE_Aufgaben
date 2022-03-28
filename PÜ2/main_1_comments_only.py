@@ -4,7 +4,6 @@
 '''
 Daten sind vollständig vorhanden, dh.es wurde am Ergometer ein Leistungstest gemacht und aufgezeichnet
 sowie die Person im System angelegt(ID) 
-
 '''
 #%% UC 2.1 Einlesen der Daten
 '''
@@ -28,9 +27,13 @@ Die aufbereiteten Daten werden dargestellt
 '''
 #%% UC 2.6 Manuelle Eingabe eines Abbruch-Kriteriums
 '''
-Die Darstellung der aufbereiteten Daten wird abgebrochen 
+Diagnostiker:in erkennt Abbruchgrund und gibt diesen ein. Eingabe wird dokumentiert und mit Daten gespeichert. 
 '''
 #%% UC 2.7 Speichern der Daten
 '''
 Die Daten werden gespeichert 
-''' 
+'''
+#%%Nachbedingung 
+'''
+Grafiken und Auswertungen sind gespeichert. Eingangsordner ist leer.
+'''
