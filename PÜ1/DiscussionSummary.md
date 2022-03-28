@@ -48,11 +48,12 @@ Aus diesem muss die Herzrate bestimmt werden.
 ### Assumptions and dependencies
 Jede der Testpersonen bekommt eine ID zugewiesen, damit man die Daten mit der Person in Verbindung bringen kann.
 Außerdem wird auch das Alter der Person angegeben(anhand vom Geburtsjahr).
-Es werden jeweils die durchschnittliche Herzrate sowie die maximale Herzrate bei 300W gemessen.
+Es werden jeweils die durchschnittliche Herzrate sowie die maximale Herzrate gemessen und erfasst, sowie die eingestellte Leistung in W anegegeben.
 Die Länge der Leistungstest beträgt jeweils 180s.
-Daraus schließe ich dass, sobald die Testperson 300 W erreicht, 180 Sekunden lang die oben genannten Daten erfasst werden.
-Sollte aus irgendwelchen Gründen der Test abgebrochen werden, so wird auch dies erfasst und ausgegeben(wahrscheinlich in Form einer Nachricht, wenn zBsp. eine Testperson unter 300W fallen sollte, etc.) 
-Bei näherer Betrachtung komme ich zu dem Schluss, dass es eher so sein wird, dass ein Widerstand von 300 W am Ergometer eingestellt wird, da dies sinnvoller wäre.
+Jede Testperson wird in einem anderen W Bereich getestet -Wahrscheinlich wegen des Fitnesslevels der Probanden(Profisportler, Hobbysportler,Reha-Paient).
+Das wird auch daraus ersichtlich, da die Leistungsdaten bei subject_2.json sehr fluktuieren und oft unter den geforderten Leisuntgsbereich von 100W fallen, wohingegen die anderen 2 Personen die geforderten W halten undoft auch darüber sind.
+Wch vermute, dass die Frequenz der Aufzeichnungen auf 0,001 Sekunde genau ist, da ca 180000 Einträge bei jeder Person sind.
+Sollte aus irgendwelchen Gründen der Test abgebrochen werden, so wird auch dies erfasst und ausgegeben(wahrscheinlich in Form einer Nachricht) 
 
 NOTE-JHU: Eingangsdatenformate etc. In der nächsten HA
 ...
