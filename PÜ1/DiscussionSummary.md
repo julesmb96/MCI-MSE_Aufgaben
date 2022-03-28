@@ -51,9 +51,9 @@ Außerdem wird auch das Alter der Person angegeben(anhand vom Geburtsjahr).
 Es werden jeweils die durchschnittliche Herzrate sowie die maximale Herzrate gemessen und erfasst, sowie die eingestellte Leistung in W anegegeben.
 Die Länge der Leistungstest beträgt jeweils 180s.
 Jede Testperson wird in einem anderen W Bereich getestet -Wahrscheinlich wegen des Fitnesslevels der Probanden(Profisportler, Hobbysportler,Reha-Paient).
-Das wird auch daraus ersichtlich, da die Leistungsdaten bei subject_2.json sehr fluktuieren und oft unter den geforderten Leisuntgsbereich von 100W fallen, wohingegen die anderen 2 Personen die geforderten W halten undoft auch darüber sind.
-Wch vermute, dass die Frequenz der Aufzeichnungen auf 0,001 Sekunde genau ist, da ca 180000 Einträge bei jeder Person sind.
-Sollte aus irgendwelchen Gründen der Test abgebrochen werden, so wird auch dies erfasst und ausgegeben(wahrscheinlich in Form einer Nachricht) 
+Das wird auch daraus ersichtlich, da die Leistungsdaten bei subject_2.json sehr fluktuieren und öfter unter den geforderten Leisuntgsbereich von 100W fallen, wohingegen die anderen 2 Personen die geforderten W halten und öfter auch darüber sind.
+Ich vermute, dass die Frequenz der Aufzeichnungen auf 0,001 Sekunde genau ist, da ca 180000 Einträge bei jeder Person sind.
+Sollte aus irgendwelchen Gründen der Test abgebrochen werden, so wird auch dies erfasst und ausgegeben(in Form einer Nachricht) 
 
 NOTE-JHU: Eingangsdatenformate etc. In der nächsten HA
 ...
