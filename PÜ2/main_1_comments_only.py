@@ -19,7 +19,7 @@ Es wird festgestellt ob die vorverarbeiteten Daten irgendwelche Abbruchkriterien
 '''
 #%% UC 2.4 Erstellen einer Zusammenfassung
 '''
-Eine Zusammenfassung der Daten wird erfüllt
+Eine Zusammenfassung der Daten wird erstellt
 '''
 #%% UC 2.5 Visualisierung der Daten
 '''
@@ -27,7 +27,7 @@ Die aufbereiteten Daten werden dargestellt
 '''
 #%% UC 2.6 Manuelle Eingabe eines Abbruch-Kriteriums
 '''
-Diagnostiker:in erkennt Abbruchgrund und gibt diesen ein. Eingabe wird dokumentiert und mit Daten gespeichert. 
+Diagnostiker/in erkennt Abbruchgrund und gibt diesen ein. Eingabe wird dokumentiert und mit Daten gespeichert. 
 '''
 #%% UC 2.7 Speichern der Daten
 '''
