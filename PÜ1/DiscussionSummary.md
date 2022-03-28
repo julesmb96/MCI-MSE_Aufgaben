@@ -46,6 +46,13 @@ Beispiel von aufgezeichneten EKG Daten
 Aus diesem muss die Herzrate bestimmt werden.
 
 ### Assumptions and dependencies
+Jede der Testpersonen bekommt eine ID zugewiesen, damit man die Daten mit der Person in Verbindung bringen kann.
+Außerdem wird auch das Alter der Person angegeben(anhand vom Geburtsjahr).
+Es werden jeweils die durchschnittliche Herzrate sowie die maximale Herzrate bei 300W gemessen.
+Die Länge der Leistungstest beträgt jeweils 180s.
+Daraus schließe ich dass, sobald die Testperson 300 W erreicht, 180 Sekunden lang die oben genannten Daten erfasst werden.
+Sollte aus irgendwelchen Gründen der Test abgebrochen werden, so wird auch dies erfasst und ausgegeben(wahrscheinlich in Form einer Nachricht, wenn zBsp. eine Testperson unter 300W fallen sollte, etc.) 
+Bei näherer Betrachtung komme ich zu dem Schluss, dass es eher so sein wird, dass ein Widerstand von 300 W am Ergometer eingestellt wird, da dies sinnvoller wäre.
 
 NOTE-JHU: Eingangsdatenformate etc. In der nächsten HA
 ...
