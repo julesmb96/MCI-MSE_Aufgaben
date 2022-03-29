@@ -1,3 +1,4 @@
+'''
 # %% Import der nötigen Pakete
 import numpy as np
 import matplotlib.pyplot as plt
@@ -12,11 +13,10 @@ plt.title("Line graph")
 plt.plot(x, color="red")
 
 plt.show()
+'''
 
 
-# %%
 
-# %%
 
 ##Mein Code
 
