@@ -55,7 +55,7 @@ Das wird auch daraus ersichtlich, da die Leistungsdaten bei subject_2.json sehr 
 Ich vermute, dass die Frequenz der Aufzeichnungen auf 0,001 Sekunde genau ist, da ca 180000 Einträge bei jeder Person sind.
 Sollte aus irgendwelchen Gründen der Test abgebrochen werden, so wird auch dies erfasst und ausgegeben(in Form einer Nachricht) 
 
-NOTE-JHU: Eingangsdatenformate etc. In der nächsten HA
+NOTE-JHU: Gute Beschreibung. Lesbarkeit könnte man vielleicht noch optimieren, wenn man es nicht als Fließtext formuliert sonden etwas struturiert ;)
 ...
 
 ### Design and implementation constraints
