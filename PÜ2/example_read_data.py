@@ -27,9 +27,14 @@ from posixpath import split
 # Folder Path
 path = r"C:\Users\marku\OneDrive - mci4me.at\Dokumente\Bachelor of Science in Engineering\SS2022\Programmierübungen\MCI-MSE_Aufgaben\PÜ2\input_data"
   
+# NOTE-JHU: Gute Idee auf OS zurückzugreifen. Aber ich zweife gerade, dass dein Code funktioniert: Die Variable file_path wird nie definiert, aber aufgerufen
+
+
 # Change the directory
 os.chdir(path)
-  
+# NOTE-JHU: Willst du die Rückgabe hier nicht irgendwo speichern?
+
+
 # Read text File    
 def read_text_file(file_path):
     with open(file_path, 'r') as f:
@@ -48,3 +53,4 @@ for file in os.listdir():
         read_text_file(file_path) 
 
 
+# Plot vergessen
