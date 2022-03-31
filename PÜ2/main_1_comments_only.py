@@ -37,3 +37,4 @@ Die Daten werden gespeichert
 '''
 Grafiken und Auswertungen sind gespeichert. Eingangsordner ist leer.
 '''
+ 
